@@ -1,4 +1,3 @@
-import json
 import requests
 from bs4 import BeautifulSoup
 
@@ -45,8 +44,8 @@ def getTopN(n):
 # 提取表格中的数据
 def extraInfo(keys=[]):
     res = []
-    for key, index in keys:
-        print("Processing %s..., %d / %d" % (key, index, len(keys)))
+    for index, key in enumerate(keys):
+        print("Processing %s..., %d / %d" % (key, index + 1, len(keys)))
         info = spider(key).find("table", class_="infobox")
         if info is None:
             continue
@@ -56,13 +55,16 @@ def extraInfo(keys=[]):
             cells = row.find_all(["th", "td"])
             if len(cells) == 2:
                 key = cells[0].text.strip()
+                if key == "坐标":
+                    continue
+                value = {"text": cells[1].text.strip()}
                 if cells[1].findAll("a"):
-                    value = [
+                    links = [
                         {"text": a.text.strip(), "link": a.get("href")}
                         for a in cells[1].findAll("a")
                     ]
-                else:
-                    value = cells[1].text.strip()
+                    value["links"] = links
+
                 data["props"][key] = value
         res.append(data)
     return res

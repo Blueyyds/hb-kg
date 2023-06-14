@@ -17,15 +17,11 @@ def process(data):
         for index, item in enumerate(data):
             props = item["props"]
             for prop in props:
-                if isinstance(props[prop], list):
-                    value = "/".join([subitem["text"] for subitem in props[prop]])
-                simplify_data[index]["props"][prop] = value
+                simplify_data[index]["props"][prop] = props[prop]["text"]
     return simplify_data
 
 
-relations = [
-    "建筑师",
-]
+relations = ["建筑师", "开发商", "结构工程师", "主承包商"]
 
 
 # 分析建筑物中含有的关系，并从维基百科中爬取该关系对应实体的信息
@@ -33,7 +29,7 @@ def analyze(buildings):
     for building in buildings:
         props = building["props"]
         if "建筑师" in props:
-            print(props["建筑师"])
+            set1 = set([])
             # for architect in props["建筑师"]:
             #     print(architect)
             #     architect = architect["text"]
@@ -45,13 +41,15 @@ def analyze(buildings):
 
 # main函数
 if __name__ == "__main__":
-    with open("test.json", "r") as file:
-        buildings = json.loads(file.read())
-    analyze(buildings)
+    # with open("test.json", "r") as file:
+    #     buildings = json.loads(file.read())
+    # analyze(buildings)
     # data = process(buildings)
     # writeToFile(data, "test2.json")
     # for building in buildings:
     #     print(building["props"]["建筑师"])
-    # buildings = getTopN(20)
-    # data = extraInfo(buildings)
-    # writeToFile(data, "test.json")
+    with open("test.json", "r") as file:
+        buildings = json.loads(file.read())
+
+    data = process(buildings)
+    writeToFile(data, "test2.json")
