@@ -6,6 +6,11 @@
     },
     {
         "entity1": "上海中心大厦",
+        "entity2": "上海建工集团",
+        "relation": "建筑商"
+    },
+    {
+        "entity1": "上海中心大厦",
         "entity2": "上海中心大厦建设发展有限公司",
         "relation": "开发商"
     },
@@ -113,5 +118,510 @@
         "entity1": "中信集团总部大楼",
         "entity2": "中国建筑第三工程局",
         "relation": "主承包商"
+    },
+    {
+        "entity1": "环球金融中心",
+        "entity2": "KPF建筑事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "环球金融中心",
+        "entity2": "中国建筑集团",
+        "relation": "建筑商"
+    },
+    {
+        "entity1": "环球金融中心",
+        "entity2": "上海环球金融中心股份有限公司（森大厦子公司）",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "环球金融中心",
+        "entity2": "上海建工集团",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "环球金融中心",
+        "entity2": "中国建筑一局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "环球贸易广场",
+        "entity2": "KPF建筑事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "环球贸易广场",
+        "entity2": "新鸿基地产",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "环球贸易广场",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "环球贸易广场",
+        "entity2": "新辉城建",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "环球贸易广场",
+        "entity2": "中国建筑第三工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "武汉绿地中心",
+        "entity2": "绿地集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "武汉绿地中心",
+        "entity2": "宋腾添玛沙帝",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "长沙国际金融中心",
+        "entity2": "湖南省建筑设计院有限公司",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "长沙国际金融中心",
+        "entity2": "王董国际有限公司",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "长沙国际金融中心",
+        "entity2": "贝诺设计有限公司",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "长沙国际金融中心",
+        "entity2": "九龙仓集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "长沙国际金融中心",
+        "entity2": "中国建筑第二工程局有限公司",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "苏州国际金融中心",
+        "entity2": "KPF建筑师事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "苏州国际金融中心",
+        "entity2": "中国建筑集团",
+        "relation": "建筑商"
+    },
+    {
+        "entity1": "苏州国际金融中心",
+        "entity2": "九龙仓集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "紫峰大厦",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "紫峰大厦",
+        "entity2": "上海建工集团",
+        "relation": "建筑商"
+    },
+    {
+        "entity1": "紫峰大厦",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "武汉中心",
+        "entity2": "ECADI华东建筑设计研究院",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "武汉中心",
+        "entity2": "中国泛海控股集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "京基100",
+        "entity2": "特里·法拉尔",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "京基100",
+        "entity2": "深圳市蔡屋围实业股份公司",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "京基100",
+        "entity2": "京基集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "京基100",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "京基100",
+        "entity2": "中国建筑第四工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "广州国际金融中心",
+        "entity2": "Wilkinson Eyre",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "广州国际金融中心",
+        "entity2": "广州越秀城建国际金融中心有限公司",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "广州国际金融中心",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "广州国际金融中心",
+        "entity2": "中国建筑第四工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "广州国际金融中心",
+        "entity2": "广州市建筑集团有限公司",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "金茂大厦",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "金茂大厦",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "金茂大厦",
+        "entity2": "上海建工集团",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "金茂大厦",
+        "entity2": "大林组",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "金茂大厦",
+        "entity2": "西宝",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "金茂大厦",
+        "entity2": "其士（建筑）",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "宁波中心",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "南宁华润大厦",
+        "entity2": "华润集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "中国华润大厦",
+        "entity2": "KPF建筑师事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "中国华润大厦",
+        "entity2": "华润置地",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "中国华润大厦",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "中国华润大厦",
+        "entity2": "中国建筑第三工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "信兴广场",
+        "entity2": "张国言",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "信兴广场",
+        "entity2": "艾奕康",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "信兴广场",
+        "entity2": "熊谷组",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "信兴广场",
+        "entity2": "中国建筑第二工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "信兴广场",
+        "entity2": "保华德祥",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "汉京中心",
+        "entity2": "模弗西斯建筑事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "汉京中心",
+        "entity2": "中国建筑第四工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "重庆来福士广场",
+        "entity2": "摩西·萨夫迪",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "重庆来福士广场",
+        "entity2": "巴马丹拿",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "重庆来福士广场",
+        "entity2": "凯德集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "重庆来福士广场",
+        "entity2": "星桥腾飞",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "重庆来福士广场",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "重庆来福士广场",
+        "entity2": "中建三局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "重庆来福士广场",
+        "entity2": "中建八局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "市府恒隆广场",
+        "entity2": "美国KPF建筑师事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "市府恒隆广场",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "广晟国际大厦",
+        "entity2": "广州瀚华建筑设计有限公司",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "广晟国际大厦",
+        "entity2": "广州瀚华建筑设计有限公司",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "广晟国际大厦",
+        "entity2": "广州市建筑集团有限公司",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "昆明恒隆广场",
+        "entity2": "上海建工集团股份有限公司",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "中环中心",
+        "entity2": "长江实业",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "中环中心",
+        "entity2": "艾奕康",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "中环中心",
+        "entity2": "保华建业集团",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "厦门绿发新时代广场",
+        "entity2": "Gensler",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "厦门绿发新时代广场",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "厦门绿发新时代广场",
+        "entity2": "中国邮政",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "厦门绿发新时代广场",
+        "entity2": "中国建筑第六工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "世茂环球金融中心",
+        "entity2": "世茂集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "深圳湾一号",
+        "entity2": "KPF建筑事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "深圳湾一号",
+        "entity2": "中国建筑第五工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "重庆环球金融中心",
+        "entity2": "李祖原联合建筑师事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "重庆环球金融中心",
+        "entity2": "华迅地产",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "重庆环球金融中心",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "重庆环球金融中心",
+        "entity2": "中国建筑第四工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "天津国际金融中心",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "天津国际金融中心",
+        "entity2": "中国建筑第三工程局",
+        "relation": "建筑商"
+    },
+    {
+        "entity1": "天津环球金融中心",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "天津环球金融中心",
+        "entity2": "中国建筑一局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "武汉民生银行大厦",
+        "entity2": "武汉香利房地产公司",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "中国国际贸易中心三期A阶段",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "中国国际贸易中心三期A阶段",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "武汉越秀财富中心",
+        "entity2": "武汉越秀地产开发有限公司",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "龙希国际大酒店",
+        "entity2": "华西村村委会",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "龙希国际大酒店",
+        "entity2": "中国建筑",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "温州世界贸易中心",
+        "entity2": "美国r.t.k.l国际建筑设计有限公司",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "温州世界贸易中心",
+        "entity2": "上海现代建筑设计集团",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "温州世界贸易中心",
+        "entity2": "中国建筑一局（集团）有限公司",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "白玉兰广场",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "环球都会广场",
+        "entity2": "许李严建筑师有限公司",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "环球都会广场",
+        "entity2": "中国建筑第八工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "重庆国际金融中心",
+        "entity2": "兆华斯坦地产",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "南京国际青年文化中心",
+        "entity2": "扎哈·哈迪德建筑事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "南京国际青年文化中心",
+        "entity2": "中国建筑第三工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "平安泰达国际金融中心",
+        "entity2": "中建八局",
+        "relation": "建筑商"
     }
 ]
