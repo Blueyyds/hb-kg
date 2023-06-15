@@ -1,0 +1,117 @@
+[
+    {
+        "entity1": "上海中心大厦",
+        "entity2": "Gensler",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "上海中心大厦",
+        "entity2": "上海中心大厦建设发展有限公司",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "上海中心大厦",
+        "entity2": "宋腾添玛沙帝",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "上海中心大厦",
+        "entity2": "同济大学建筑设计研究院",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "上海中心大厦",
+        "entity2": "上海建工集团",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "平安国际金融中心",
+        "entity2": "KPF建筑师事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "平安国际金融中心",
+        "entity2": "中国平安",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "平安国际金融中心",
+        "entity2": "宋腾添玛沙帝",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "平安国际金融中心",
+        "entity2": "中国建筑一局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "广州周大福金融中心",
+        "entity2": "KPF建筑事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "广州周大福金融中心",
+        "entity2": "周大福集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "广州周大福金融中心",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "广州周大福金融中心",
+        "entity2": "中国建筑第四工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "天津周大福金融中心",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "天津周大福金融中心",
+        "entity2": "周大福集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "天津周大福金融中心",
+        "entity2": "SOM建筑设计事务所",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "天津周大福金融中心",
+        "entity2": "中国建筑第八工程局",
+        "relation": "主承包商"
+    },
+    {
+        "entity1": "中信集团总部大楼",
+        "entity2": "Farrells",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "中信集团总部大楼",
+        "entity2": "KPF",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "中信集团总部大楼",
+        "entity2": "北京市建筑设计研究院有限公司",
+        "relation": "建筑师"
+    },
+    {
+        "entity1": "中信集团总部大楼",
+        "entity2": "中国中信集团",
+        "relation": "开发商"
+    },
+    {
+        "entity1": "中信集团总部大楼",
+        "entity2": "奥雅纳",
+        "relation": "结构工程师"
+    },
+    {
+        "entity1": "中信集团总部大楼",
+        "entity2": "中国建筑第三工程局",
+        "relation": "主承包商"
+    }
+]
